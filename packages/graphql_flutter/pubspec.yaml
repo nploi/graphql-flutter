@@ -9,7 +9,10 @@ publish_to: 'none'
 
 dependencies:
   graphql:
-    path: ../graphql
+    git:
+      url: https://github.com/nploi/graphql-flutter.git
+      ref: main
+      path: packages/graphql/
   gql_exec: ^0.4.0
   flutter:
     sdk: flutter
